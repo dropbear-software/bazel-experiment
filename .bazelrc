@@ -1,0 +1,2 @@
+# For info on the experimental_no_product_name_out_symlink option check https://github.com/bazelbuild/bazel/issues/3796
+build --symlink_prefix=.bazel/ --experimental_no_product_name_out_symlink
