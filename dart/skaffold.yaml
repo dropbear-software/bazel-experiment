@@ -1,0 +1,17 @@
+apiVersion: skaffold/v2beta25
+kind: Config
+metadata:
+  name: dart
+build:
+  artifacts:
+  - image: skaffold-example-dart
+    docker:
+      dockerfile: server/Dockerfile
+  - image: envoy-proxy
+    context: proxy
+    docker:
+      dockerfile: Dockerfile
+deploy:
+  kubectl:
+    manifests:
+    - k8s-pod.yaml
