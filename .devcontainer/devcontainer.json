@@ -6,8 +6,7 @@
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
-			"BAZEL_VERSION": "4.2.1",
-			"BAZEL_DOWNLOAD_SHA": "35f398ad93af2b5eadd4b6b4fd4d4803b726029e572f40c4e1fe736db3de944b"
+			"USERNAME": "vscode",
 		}
 	},
 
@@ -21,8 +20,8 @@
 		"dart-code.flutter",
 		"ms-vsliveshare.vsliveshare",
 		"ms-vsliveshare.vsliveshare-audio",
-		"devondcarew.bazel-code",
-		"ms-kubernetes-tools.vscode-kubernetes-tools"
+		"ms-kubernetes-tools.vscode-kubernetes-tools",
+		"googlecloudtools.cloudcode"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
