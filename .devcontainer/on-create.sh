@@ -11,7 +11,7 @@ sudo chown -R $USER $HOME/.minikube; chmod -R u+wrx $HOME/.minikube
 # Install Protobuf compiler
 PROTOC_VERSION="3.19.1"
 curl -o /tmp/protoc.zip -L https://github.com/protocolbuffers/protobuf/releases/download/v${PROTOC_VERSION}/protoc-${PROTOC_VERSION}-linux-x86_64.zip
-unzip /tmp/protoc.zip -d /home/${USER}/.local/
+unzip /tmp/protoc.zip -d $HOME/.local/
 rm /tmp/protoc.zip
 
 # Install Flutter
