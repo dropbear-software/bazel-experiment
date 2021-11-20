@@ -21,7 +21,8 @@
 		"dart-code.flutter",
 		"ms-vsliveshare.vsliveshare",
 		"ms-vsliveshare.vsliveshare-audio",
-		"devondcarew.bazel-code"
+		"devondcarew.bazel-code",
+		"ms-kubernetes-tools.vscode-kubernetes-tools"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
